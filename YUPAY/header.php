@@ -21,8 +21,8 @@ include 'functions.php';
 				</div>
 				<div id="nav-bar">
 					<div class="left">
-						<div class="nav-bar-item">HOME</div>
-						<div class="nav-bar-item">PRODUCTS</div>
+						<a href="admin.php"><div class="nav-bar-item">HOME</div></a>
+						<a href="products.php"><div class="nav-bar-item">PRODUCTS</div></a>
 						<div class="nav-bar-item">CATEGORIES</div>
 						<div class="nav-bar-item">SELLERS</div>
 						<a href="account.php"><div class="nav-bar-item">YOUR ACCOUNT</div></a>
