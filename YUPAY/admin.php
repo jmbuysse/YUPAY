@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 			<div id="body">
-				<h2>Choose User to manage</h2>
+				<h2>Choose User to Manage</h2>
 				<Select>
 					<option>Joe Buysse</option>
 					<option>Nolan Bauer</option>
