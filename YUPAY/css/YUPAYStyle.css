@@ -1,0 +1,72 @@
+@CHARSET "ISO-8859-1";
+
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+body{
+	background: #aee;
+}
+#wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#nav{
+	width: 100%;
+	position: relative;
+	top: 0px;
+}
+
+#nav-header{
+	width: calc(100% - 40px);
+	background: #f8f8f8;
+	height: 20px;
+	padding: 10px 20px;
+	color: #488;
+}
+
+#nav-bar{
+	width: 100%;
+	background: rgba(0,0,0,.8);
+	height: 100px;
+	display: inline-block;
+}
+
+.nav-bar-item{
+	float: left;
+	width: 106px;
+	height: 56px;
+	border: 2px solid #488;
+	border-radius: 5px;
+	background: #8bb;
+	margin: 5px 0px 5px 5px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.login{
+	width: 300px;
+	height: 60px;
+	padding: 20px;
+	background: gray;
+}
+
+.account-section{
+	width: 525px;
+}
+
+.account-section.left{
+	padding-left: 50px;
+	padding-right: 25px;
+}
+
+.account-section.right{
+	padding-right: 50px;
+	padding-left: 25px;
+}
